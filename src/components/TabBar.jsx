@@ -110,11 +110,11 @@ const styles = StyleSheet.create({
     fontWeight: '700'
   },
   actionsButton: {
-    width: 42,
-    height: 42,
+    width: 47,
+    height: 47,
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: 21,
+    borderRadius: 30,
     backgroundColor: Colors.primary,
     alignSelf: 'center'
   }

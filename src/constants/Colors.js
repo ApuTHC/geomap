@@ -5,5 +5,6 @@ export default {
   positiveGreen: '#1c5923',
   negativeRed: '#bd2424',
   secondary: '#444',
-  text: '#111'
+  text: '#111',
+  white: '#fff'
 }

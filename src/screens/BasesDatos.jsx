@@ -1,21 +1,8 @@
 import React from 'react'
-import { StatusBar } from 'expo-status-bar'
-import { StyleSheet, Text, View } from 'react-native'
+import BasesDatosView from '../components/BasesDatosView'
 
 export default function BasesDatos () {
   return (
-    <View style={styles.container}>
-      <Text>Bases de Datos</Text>
-      <StatusBar style='auto' />
-    </View>
+    <BasesDatosView />
   )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center'
-  }
-})
